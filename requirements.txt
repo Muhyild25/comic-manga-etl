@@ -1,0 +1,6 @@
+Plaintext
+
+
+pandas
+requests
+python-dotenv
