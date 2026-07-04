@@ -1,4 +1,4 @@
-# Comic & Manga ETL Pipeline
+# # Comic & Manga ETL Pipeline
 
 Bu proje, Jikan API (Manga) ve Comic Vine API (Batý Çizgi Romanlarý) kullanarak farklý yapýdaki verileri çeken, Pandas ile temizleyip ortak bir formata dönüþtüren ve SQLite veritabanýna kaydeden temel bir ETL projesidir. 
 
@@ -26,3 +26,6 @@ Projeyi lokalinizde çalýþtýrmak için aþaðýdaki adýmlarý izleyebilirsiniz.
 
 4. Pipeline'ý baþlatýn:
     python src/loader.py
+
+5. Veritabanýndaki sonuçlarý terminalde görüntüleyin:
+    python src/view_db.py
